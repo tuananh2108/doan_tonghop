@@ -19404,17 +19404,16 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
       color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
-/* css ảnh */
 
+/* css ảnh */
 .card_img{
-  width: 120px;
-  height: 120px;
-  border: 4px solid var(--primary-color);
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 0 ;
   transform: translateY(25px);
-  transition: 0.5s;
+  transition: .5s;
 }
 
 img{
@@ -19425,11 +19424,10 @@ img{
 }
 
 .card_img:hover{
-  width: 100%;
-  height: 100%;
+  width: 30%;
+  height: 30%;
   border-radius: unset;
   transform: unset;
-  border: none;
 }
 
 .content-body{
@@ -19443,7 +19441,7 @@ img{
 .line span{
   position: absolute;
   border-bottom: 2px solid #2691d9;
-  left: 3%;
+  left: 0;
   top: 90%;
-  width: 90%;
+  width: 100%;
 }
